@@ -30,3 +30,6 @@ Thumbs.db
 
 # Git
 *.orig
+
+bundle.py
+kenat-ui.txt
