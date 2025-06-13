@@ -33,3 +33,5 @@ Thumbs.db
 
 bundle.py
 kenat-ui.txt
+*storybook.log
+storybook-static
