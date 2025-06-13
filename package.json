@@ -46,6 +46,6 @@
         "vite": "^6.3.5"
     },
     "dependencies": {
-        "kenat": "^1.4.2"
+        "kenat": "^2.0.1"
     }
 }
