@@ -1,3 +1,29 @@
+interface MonthGridData {
+    headers: any;
+    days: any[];
+    year: any;
+    month: any;
+    monthName: any;
+    up: () => {
+        headers: any;
+        days: any[];
+        year: any;
+        month: any;
+        monthName: any;
+        up: /*elided*/ any;
+        down: () => /*elided*/ any;
+    };
+    down: () => {
+        headers: any;
+        days: any[];
+        year: any;
+        month: any;
+        monthName: any;
+        up: () => /*elided*/ any;
+        down: /*elided*/ any;
+    };
+};
+
 /**
  * A headless hook for generating a configurable Ethiopian calendar grid.
  * @param {object} [options={}] - Configuration options.
@@ -16,7 +42,7 @@ export function useMonthGrid(options?: {
     weekdayLang?: string | undefined;
     holidayFilter?: string[] | null | undefined;
 }): {
-    grid: null;
+    grid: null | MonthGridData;
     controls: {
         goNext: () => void;
         goPrev: () => void;
