@@ -4,9 +4,9 @@
   "description": "Headless UI library for Ethiopian calendar components powered by kenat.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
-  "types": "./types/index.d.ts",
   "exports": {
     ".": {
+      "types": "./types/index.d.ts",
       "import": "./dist/index.es.js",
       "require": "./dist/index.cjs.js"
     }

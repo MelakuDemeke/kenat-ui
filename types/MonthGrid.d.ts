@@ -22,7 +22,7 @@ interface MonthGridData {
         up: () => /*elided*/ any;
         down: /*elided*/ any;
     };
-};
+}
 
 /**
  * A headless hook for generating a configurable Ethiopian calendar grid.
