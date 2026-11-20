@@ -1,5 +1,7 @@
 # kenat-ui
 
+![Kenat UI / ቀናት — headless React hooks for Ethiopian calendar UIs](assets/img/kenat-ui-banner.png)
+
 [](https://www.google.com/search?q=https://www.npmjs.com/package/kenat-ui)
 [](https://opensource.org/licenses/MIT)
 
